@@ -1,0 +1,15 @@
+# Ignore heavy junk only
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.env
+.git
+.gitignore
+wandb/
+notebooks/
+logs/
+tests/
+
+# IMPORTANT: DO NOT ignore data or results
+# They must be inside image for evaluation
